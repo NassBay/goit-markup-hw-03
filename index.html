@@ -7,19 +7,18 @@
 
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="node_modules/modern-normalize/modern-normalize.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
     />
 
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    
     <!-- header -->
 
     <header class="header">
@@ -30,7 +29,9 @@
           </a>
           <ul class="navigation-list">
             <li>
-              <a href="./index.html" target="_blank" class="navigation-item">Studio</a>
+              <a href="./index.html" target="_blank" class="navigation-item"
+                >Studio</a
+              >
             </li>
             <li>
               <a href="" target="_blank" class="navigation-item">Portfolio</a>
@@ -56,12 +57,10 @@
         </address>
       </div>
     </header>
-    
 
     <!-- main -->
 
     <main>
-
       <!-- order-service-hero-image-section -->
 
       <section class="section hero-image-section">
@@ -79,7 +78,7 @@
 
       <section class="section first-section">
         <div class="container">
-          <h2 class="first-section-title" hidden>Lorem, ipsum.</h2>
+          <h2 class="first-section-title visually-hidden">Lorem, ipsum.</h2>
           <ul class="first-section-list">
             <li class="first-section-list-item">
               <h3 class="first-section-list-item-title">Strategy</h3>
@@ -126,10 +125,12 @@
                 width="264"
                 class="second-section-list-img"
               />
-              <h3 class="second-section-list-item-title">Mark Guerrero</h3>
-              <p class="second-section-list-item-description">
-                Product Designer
-              </p>
+              <div class="second-section-list-item-text-holder">
+                <h3 class="second-section-list-item-title">Mark Guerrero</h3>
+                <p class="second-section-list-item-description">
+                  Product Designer
+                </p>
+              </div>
             </li>
             <li class="second-section-list-item">
               <img
@@ -138,10 +139,12 @@
                 width="264"
                 class="second-section-list-img"
               />
-              <h3 class="second-section-list-item-title">Tom Ford</h3>
-              <p class="second-section-list-item-description">
-                Frontend Developer
-              </p>
+              <div class="second-section-list-item-text-holder">
+                <h3 class="second-section-list-item-title">Tom Ford</h3>
+                <p class="second-section-list-item-description">
+                  Frontend Developer
+                </p>
+              </div>
             </li>
             <li class="second-section-list-item">
               <img
@@ -150,8 +153,10 @@
                 width="264"
                 class="second-section-list-img"
               />
-              <h3 class="second-section-list-item-title">Camila Garcia</h3>
-              <p class="second-section-list-item-description">Marketing</p>
+              <div class="second-section-list-item-text-holder">
+                <h3 class="second-section-list-item-title">Camila Garcia</h3>
+                <p class="second-section-list-item-description">Marketing</p>
+              </div>
             </li>
             <li class="second-section-list-item">
               <img
@@ -160,8 +165,10 @@
                 width="264"
                 class="second-section-list-img"
               />
-              <h3 class="second-section-list-item-title">Daniel Wilson</h3>
-              <p class="second-section-list-item-description">UI Designer</p>
+              <div class="second-section-list-item-text-holder">
+                <h3 class="second-section-list-item-title">Daniel Wilson</h3>
+                <p class="second-section-list-item-description">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -180,8 +187,8 @@
                 width="360"
               />
               <div class="third-section-app-border">
-              <h3 class="third-section-list-item-title">Banking App</h3>
-              <p class="third-section-list-item-description">App</p>
+                <h3 class="third-section-list-item-title">Banking App</h3>
+                <p class="third-section-list-item-description">App</p>
               </div>
             </li>
             <li class="third-section-list-item">
@@ -191,8 +198,8 @@
                 width="360"
               />
               <div class="third-section-app-border">
-              <h3 class="third-section-list-item-title">Cashless Payment</h3>
-              <p class="third-section-list-item-description">Marketing</p>
+                <h3 class="third-section-list-item-title">Cashless Payment</h3>
+                <p class="third-section-list-item-description">Marketing</p>
               </div>
             </li>
             <li class="third-section-list-item">
@@ -202,8 +209,8 @@
                 width="360"
               />
               <div class="third-section-app-border">
-              <h3 class="third-section-list-item-title">Meditation App</h3>
-              <p class="third-section-list-item-description">App</p>
+                <h3 class="third-section-list-item-title">Meditation App</h3>
+                <p class="third-section-list-item-description">App</p>
               </div>
             </li>
             <li class="third-section-list-item">
@@ -213,8 +220,8 @@
                 width="360"
               />
               <div class="third-section-app-border">
-              <h3 class="third-section-list-item-title">Taxi Service</h3>
-              <p class="third-section-list-item-description">Marketing</p>
+                <h3 class="third-section-list-item-title">Taxi Service</h3>
+                <p class="third-section-list-item-description">Marketing</p>
               </div>
             </li>
             <li class="third-section-list-item">
@@ -224,7 +231,9 @@
                 width="360"
               />
               <div class="third-section-app-border">
-                <h3 class="third-section-list-item-title">Screen Illustrations</h3>
+                <h3 class="third-section-list-item-title">
+                  Screen Illustrations
+                </h3>
                 <p class="third-section-list-item-description">Design</p>
               </div>
             </li>
@@ -238,7 +247,7 @@
                 <h3 class="third-section-list-item-title">Online Courses</h3>
                 <p class="third-section-list-item-description">Marketing</p>
               </div>
-              </li>
+            </li>
           </ul>
         </div>
       </section>
@@ -248,9 +257,9 @@
 
     <footer class="footer">
       <div class="container">
-      <a href="./index.html" target="_blank" class="logo-item"
-            >Web<span class="logo-span">Studio</span>
-          </a>
+        <a href="./index.html" target="_blank" class="logo-item"
+          >Web<span class="logo-span">Studio</span>
+        </a>
         <p class="footer-description">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
